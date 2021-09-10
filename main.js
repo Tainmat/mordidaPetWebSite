@@ -41,10 +41,14 @@ function changeHeaderWhenScroll() {
 
 /* Testimonials carousel slider*/
 const swiper = new Swiper('.swiper-container', {
+  // Optional parameters
   slidesPerView: 1,
+  // If we need pagination
   pagination: {
-    el: '.swiper-pagination'
+    el: '.swiper-pagination',
+    dynamicBullets: true
   },
+
   edgeSwipeDetection: true,
   mousewheel: false /* Scroll de Mouse */,
   keyboard: true,
