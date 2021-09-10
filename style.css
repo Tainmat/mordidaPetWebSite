@@ -379,6 +379,10 @@ nav.show div.icon-close {
   text-align: center;
 }
 
+.card:hover {
+  transform: scale(1.05);
+}
+
 .card i {
   display: block;
   margin-bottom: 1.5rem;
@@ -526,7 +530,7 @@ footer .social a {
 }
 
 footer .social a:hover {
-  transform: translateY(-8px);
+  transform: translateY(-10px);
 }
 
 footer .imgLogo {
